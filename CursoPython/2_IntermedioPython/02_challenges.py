@@ -39,7 +39,7 @@ verdadero o falso (Bool) según sean o no anagramas.
 def is_anagram(word_one, word_two):
     if word_one.lower() == word_two.lower():
         return False
-    return sorted(word_one.lower()) == sorted(word_two.lower())
+    return sorted(word_one.lower()) == sorted(word_two.lower())#Sorted ordena la palabra un criterio que nos da igual
 
 print(is_anagram("Amor", "Roma"))
 
@@ -96,6 +96,5 @@ def reverse(text):
     for index in range(0, text_len):
         reversed_text += text[text_len - index - 1]
     return reversed_text
-
 
 print(reverse("Hola mundo"))

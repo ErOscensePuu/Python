@@ -1,6 +1,7 @@
 ### Classes ###
 
 class MyEmptyPerson:
+    print("hola")
     pass
 
 print(MyEmptyPerson)
