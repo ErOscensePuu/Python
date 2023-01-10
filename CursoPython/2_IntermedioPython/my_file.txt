@@ -1,0 +1,6 @@
+Mi nombre es Pascual
+Mi apellido es Ferrer
+19 años
+Y mi lenguaje preferido
+Aunque también me gusta Java
+Y c

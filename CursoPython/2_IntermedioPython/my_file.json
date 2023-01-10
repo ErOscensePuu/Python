@@ -1,0 +1,11 @@
+{
+  "name": "Pascual",
+  "surname": "Ferrer",
+  "age": 18,
+  "Lenguajes": [
+    "Python",
+    "Java",
+    "c"
+  ],
+  "website": "https://moure.dev"
+}
