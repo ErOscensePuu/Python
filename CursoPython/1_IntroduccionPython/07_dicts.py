@@ -34,7 +34,7 @@ print(my_dict[1])
 my_dict["Calle"]="Calle Calatayud"
 print(my_dict)
 
-del my_dict["Calle"]#Para eliminar un elemento en el diccionario
+del my_dict["Calle"] #Para eliminar un elemento en el diccionario
 print(my_dict)
 
 #Te mira si esta la clave en el diccionario
