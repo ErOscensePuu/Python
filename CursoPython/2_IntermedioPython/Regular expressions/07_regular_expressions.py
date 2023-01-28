@@ -15,7 +15,7 @@ if match is not None:
     print(match)
     span=match.span()
     print(span)
-    start, end=match.span()
+    start, end= match.span()
     print(my_string[start:end])
 
 match=print(re.match("Esta es la lección", my_other_string))
@@ -70,7 +70,7 @@ print(re.match(pattern, my_string))
 print(re.search(pattern, my_string))
 
 pattern= r"\d"
-print(re.findall(pattern, my_string))
+print(re.findall(pattern, my_string))  
 
 pattern=r"\D"
 print(re.findall(pattern, my_string))

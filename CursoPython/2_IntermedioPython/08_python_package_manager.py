@@ -24,7 +24,7 @@ import pandas # pip install pandas
 #pip install requests
 import requests
 
-response =requests.get("https://pokeapi.co/api/v2/pokemon?limit=151")
+response =requests.get("https://pokeapi.co/api/v2/pokemon?limit=3")
 print(response)
 print(response.status_code)
 #print(response.json())#Trae doscientos pokemon
